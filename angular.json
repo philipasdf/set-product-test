@@ -31,9 +31,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/@crionic/icons/setproduct-icons.min.css",
+              "node_modules/@crionic/system-angular-ui/setproduct-ui.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/@crionic/icons/setproduct-icons.min.js",
+              "node_modules/@webcomponents/custom-elements/custom-elements.min.js"
+            ]
           },
           "configurations": {
             "production": {
